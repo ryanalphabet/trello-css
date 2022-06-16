@@ -1,0 +1,86 @@
+.no-header #header, .no-header .board-header {
+  display: none; }
+
+.no-header .board-main-content {
+  margin-top: 10px; }
+
+.list-cards {
+  padding: 4px 4px !important; }
+
+.list-card {
+  box-shadow: 0px 0px 3px #6f6f6f; }
+
+.list-card-title {
+  text-align: right; }
+
+.list-card-title-prefix {
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-right: 4px;
+  position: absolute;
+  left: 4px;
+  top: 4px; }
+
+.textarea.mod-list-name {
+  color: #fff; }
+
+.js-add-list {
+  display: none; }
+
+.card-label.mod-card-front {
+  max-width: 1000000px; }
+
+.list-wrapper:nth-child(1) .list, .list-wrapper:nth-child(1) .list-card-title-prefix, .list-wrapper:nth-child(1) .list-card.custom-divider {
+  background-color: #e91e63; }
+
+.list-wrapper:nth-child(2) .list, .list-wrapper:nth-child(2) .list-card-title-prefix, .list-wrapper:nth-child(2) .list-card.custom-divider {
+  background-color: #8bc34a; }
+
+.list-wrapper:nth-child(3) .list, .list-wrapper:nth-child(3) .list-card-title-prefix, .list-wrapper:nth-child(3) .list-card.custom-divider {
+  background-color: #ffc107; }
+
+.list-wrapper:nth-child(4) .list, .list-wrapper:nth-child(4) .list-card-title-prefix, .list-wrapper:nth-child(4) .list-card.custom-divider {
+  background-color: #0798ff; }
+
+.list-wrapper:nth-child(5) .list, .list-wrapper:nth-child(5) .list-card-title-prefix, .list-wrapper:nth-child(5) .list-card.custom-divider {
+  background-color: #ff077b; }
+
+.list-wrapper:nth-child(6) .list, .list-wrapper:nth-child(6) .list-card-title-prefix, .list-wrapper:nth-child(6) .list-card.custom-divider {
+  background-color: #8bc34a; }
+
+.list-wrapper:nth-child(7) .list, .list-wrapper:nth-child(7) .list-card-title-prefix, .list-wrapper:nth-child(7) .list-card.custom-divider {
+  background-color: #ffc107; }
+
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
+.list-card.custom-divider {
+  box-shadow: none; }
+  .list-card.custom-divider .list-card-title {
+    color: #000;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 600; }
+
+.list-card.custom-urgent {
+  animation: fadeInOutAnimation 2s ease-out infinite; }
+
+.custom-footer {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: -1px -1px 1px #595959;
+  text-align: center;
+  padding: 4px; }
