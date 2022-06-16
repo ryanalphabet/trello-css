@@ -4,6 +4,10 @@
 .no-header .board-main-content {
   margin-top: 10px; }
 
+.list {
+  border-radius: 6px;
+}
+
 .list-cards {
   padding: 4px 4px !important; }
 
